@@ -9,7 +9,7 @@ pipeline
                 checkout([&class: 'GitSCM', branches: [[name: '*/master']],
                           userRemoteConfigs: [[
                             credentialsId: 'b7e208e2-187c-4d10-930d-954dbd2f2ead',
-                            url: 'https://github.com/rim-bdiwi/Angular/new/main']]])
+                            url: 'https://github.com/rim-bdiwi/Angular']]])
             }
         }
     }
