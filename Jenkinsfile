@@ -6,7 +6,7 @@ pipeline {
                 script{
                     checkout([$class: 'GitSCM', branches: [[name: '*/main']],
                         userRemoteConfigs: [[
-                            credentialsId: 'b7e208e2-187c-4d10-930d-954dbd2f2ead',
+                            credentialsId: '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',
                             url: 'https://github.com/rim-bdiwi/Angular.git']]])
                 }
             }
