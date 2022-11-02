@@ -22,7 +22,3 @@ pipeline {
       
     }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/main
