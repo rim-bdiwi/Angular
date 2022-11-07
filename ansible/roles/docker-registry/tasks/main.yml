@@ -1,0 +1,13 @@
+---
+- name: log into docker hub registry
+  docker_login:
+    email: "rim.bdiwi@gmail.com"
+    username: "rimbdiwi"
+    password: "rimbdiwi"
+- name: Tag and push to docker hub
+  docker_image:
+    name: devops:Myapp
+    repository: rim-bdiwi/Angular
+    push: yes
+    source: local
+       
